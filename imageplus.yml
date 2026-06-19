@@ -1,0 +1,17 @@
+# imageplus configuration
+download: true
+update: true
+download_only: false
+redownload_isos: false
+windows: false
+custom_windows_versions: 
+custom_windows_download_links: 
+parallel: 5
+debug: true
+storage: root-data-1
+base_vmid: 9000
+disable_efi: false
+disable_tpm: false
+image_dir: /tmp/images
+iso_dir: /tmp/iso
+only: 
