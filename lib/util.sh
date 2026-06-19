@@ -167,7 +167,7 @@ prune_background_pids(){
 wait_background_jobs(){
   local result=0
   local pid
-  if [[ ${#BACKGROUND_PIDS[@]:-0} -eq 0 ]]; then
+  if [[ ${#BACKGROUND_PIDS[@]} -eq 0 ]]; then
     BACKGROUND_PIDS=()
     return 0
   fi
